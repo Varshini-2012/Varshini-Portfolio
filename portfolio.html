@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varshini Prakash</title>
+    <script src="https://kit.fontawesome.com/4f2c9528bf.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="portfolio.png">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 20px;
+            background-color: #abdbe3;
+            padding: 10px 10px;
+            border-radius: 10px;
+            border: 5px solid #0c315b;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #0c315b;
+            font-size: 150%;
+            text-align: center;
+            animation: fadeIn 2s ease-in;
+        }
+        @media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        h1, h2, h3 {
+            animation: slideIn 2s ease-in-out;
+            margin-bottom: 20px;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .degree
+        {
+            color: #abdbe3;
+        }
+        h1 {
+            color: #abdbe3;
+            text-shadow: 2px 2px 5px #0c315b;
+        }
+        h2, h3 {
+            color: #0c315b;
+        }
+        a {
+            background-color: #abdbe3;
+            text-decoration: none;
+            color: #0c315b;
+            padding: 10px 15px;
+            border-radius: 25px;
+            transition: transform 0.2s;
+        }
+        a:hover {
+            cursor: pointer;
+            background-color: #ffffff;
+            color: #0c315b;
+            transform: scale(1.2);
+        }
+        ul {
+            text-align: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        ul li {
+            display: inline;
+            margin: 10px;
+        }
+        .outline {
+            outline: solid 3px #0c315b;
+            padding: 40px;
+            border-radius: 10px;
+            background-color: #0c315b;
+            animation: pop 2s;
+        }
+        @keyframes pop {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .a {
+            clip-path: circle(180px);
+            text-align: center;
+            padding: 40px;
+            overflow: hidden; 
+            justify-content: center;
+            align-items: center;
+        }
+        .a img
+        {
+            
+            height: auto;
+            object-fit: cover;
+        }
+        table {
+            width: 100%;
+            border: 2px solid #0c315b;
+            border-collapse: collapse;
+            text-align: center;
+            margin-bottom: 30px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        th {
+            padding: 15px;
+            font-size: 24px;
+            background-color: #0c315b;
+            color: #abdbe3;
+        }
+        td {
+            padding: 15px;
+            font-size: 18px;
+            background-color: #f0f8ff;
+        }
+        tr:hover {
+            background-color: #e6f7ff;
+            transition: background-color 0.3s;
+        }
+        hr {
+            background-color: #0c315b;
+            height: 2px;
+            border: none;
+            margin: 30px 0;
+        }
+        img {
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: scale(1.2);
+        }
+        #skills img, #favorites img {
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px #aaa;
+        }
+        .outline-a {
+            border: solid 2px #0c315b;
+            background-color: #0c315b;
+            color: #abdbe3;
+            border-radius: 10px;
+            padding: 40px;
+            margin-top: 30px;
+        }
+        #outline
+        {
+            color: #abdbe3;
+        }
+        #hr
+        {
+            background-color: #abdbe3;
+            height: 2px;
+            border: none;
+            margin: 30px 0;
+        }
+        .details a
+        {
+        text-decoration: underline;
+        color: #abdbe3;
+        background-color: #0c315b;
+        transition: transform 0.3s ease;
+        }
+        .details a:hover
+        {
+            color: #ffffff;
+        }
+        #contact a
+        {
+          background: transparent;
+          color: #abdbe3;
+        }
+        #contact a:hover
+        {
+          text-decoration: Underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="outline">
+        <h1>VARSHINI PRAKASH</h1>
+        <h3 class="degree">B.Tech COMPUTER SCIENCE AND BUSINESS SYSTEMS</h3>
+        <br>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Internship">Internship</a></li>
+            <li><a href="#contact">Contact Info</a></li>
+        </ul>
+    </div>
+    <div class="a">
+        <img src="file:///C:/Users/varsh/OneDrive/Pictures/Passport%20photo.JPG" alt="varshini" width="200px" height="250px">
+    </div>
+    <hr><br>
+    <div id="about">
+        <h2><i class="fa-solid fa-people-group"></i> About Me</h2>
+        <p>"Seeking an entry-level position where i can leverage my skills and enthusiasm to contribute to the company's growth while gaining valuable experiences and advancing in my career"</p>
+        <br>
+        <h2><i class="fa-solid fa-thumbs-up"></i> Expertise</h2>
+        <p>Communication</p>
+        <p>Good Listener</p>
+        <p>Adaptability</p><br>
+        <h3><i class="fa-solid fa-language"></i> Languages</h3>
+        <p>Sowrasthra</p>
+        <p>Hindi</p>
+        <p>Tamil</p>
+        <p>English</p>
+    </div>
+    <hr><br>
+    <div id="Internship">
+        <h2><i class="fa-solid fa-clipboard-user"></i> Internship</h2>
+        <p>Title: Web Designing <br>
+            <h4><i class="fa-solid fa-share"></i> Project Name - Building a portfolio</h4>
+        Company: Eduphoneix Solutions <br>
+        Location: Remote <br>
+        Dates: [01/06/2023 - 01/07/2023]</p>
+<br><br>
+        <p>Title: Power BI<br>
+            <h4><i class="fa-solid fa-share"></i> Project Name - Creating Dashboards</h4>
+        Company: InternCareer <br>
+        Location: Remote <br>
+        Dates: [01/01/2024 - 31/01/2024]</p>
+        
+           
+    </div>
+    <hr><br>
+    <div id="education">
+        <h2><i class="fa-solid fa-user-graduate"></i> Education</h2><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>University/Board</th>
+                    <th>Course</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2021 - 2025</td>
+                    <td>Knowledge Insititute Of Technology</td>
+                    <td>B.Tech</td>
+                    <td>79%</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>Government Girls Higher Secondary School</td>
+                    <td>HSC</td>
+                    <td>87%</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>Sri sarada matriculation higher secondary school</td>
+                    <td>SSLC</td>
+                    <td>80%</td>
+                </tr>
+            </tbody>
+        </table><br>
+        <h3><i class="fa-solid fa-book"></i> Clubs & Forums</h3>
+        <p>Joint Treasurer</p>
+        <h4><i class="fa-solid fa-share"></i>ACID Association (2022 - 2023) </h4>
+        
+            
+    </div>
+    <hr><br>
+    <div id="skills">
+        <h2><i class="fa-solid fa-layer-group"></i> Skills</h2><br>
+        <ul>
+            <li>C</li><br><br>
+            <li>Java</li><br><br>
+            <li>HTML</li><br><br>
+            <li>CSS</li><br><br>
+            <li>Power BI</li><br><br>
+            <li>MySQL</li><br><br>
+        </ul>
+        
+    </div>
+    <hr>
+    <div class="outline-a">
+        <div id="contact">
+            <h2 id="outline"><i class="fa-solid fa-phone"></i> Contact Info</h2><br>
+            <p><i class="fa-solid fa-location-dot"></i> 29/9, Cholan west street, Ammapet, Salem - 636001</p>
+            <p><a href="#"><i class="fa-brands fa-square-whatsapp"></i> 9080559052</a></p>
+            <p><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><i class="fa-solid fa-envelope"></i> pvarshiniprakash@gmail.com</a></p>
+            <p><a href="https://www.linkedin.com/in/varshini-prakash-"><i class="fa-brands fa-linkedin"></i>LINKED-IN</a></p>
+            <p><a href="https://github.com/Varshini-2012"><i class="fa-brands fa-github"></i>GIT-HUB</a></p>
+            <br>
+            <hr id="hr">
+            <br>
+        </div>
+        <div class="details">
+            <a href="#about">About Me</a>  
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#Internship">Internship</a>
+            <a href="#contact">Contact Me</a>
+        </div>
+    </div>
+    <script>
+       document.addEventListener("DOMContentLoaded", () => {
+    // Smooth scroll for anchor links
+    const links = document.querySelectorAll("a[href^='#']");
+    links.forEach(link => {
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute("href"));
+            if (target) {
+                target.scrollIntoView({ behavior: "smooth" });
+            }
+        });
+    });
+
+    // Fade in elements on scroll
+    const fadeIns = document.querySelectorAll("div, table, img, p");
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = 1;
+                entry.target.style.transform = "translateY(0)";
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    fadeIns.forEach(el => {
+        el.style.opacity = 0;
+        el.style.transform = "translateY(50px)";
+        el.style.transition = "opacity 1s, transform 1s";
+        observer.observe(el);
+    });
+
+    // Pulse effect on hover for buttons and links
+    const hoverables = document.querySelectorAll("a, img, button");
+    hoverables.forEach(item => {
+        item.addEventListener("mouseover", () => {
+            item.style.animation = "pulse 0.6s infinite";
+        });
+        item.addEventListener("mouseout", () => {
+            item.style.animation = "none";
+        });
+    });
+
+    // Animate h1 text with typing effect
+    const h1 = document.querySelector("h1");
+    if (h1) {
+        const text = h1.textContent;
+        h1.textContent = "";
+        let i = 0;
+        const typingEffect = setInterval(() => {
+            if (i < text.length) {
+                h1.textContent += text[i];
+                i++;
+            } else {
+                clearInterval(typingEffect);
+            }
+        }, 100);
+    }
+
+    // Add sparkle effect to favorite section images
+    const favoriteImages = document.querySelectorAll("#favorites img");
+    favoriteImages.forEach(img => {
+        img.addEventListener("mouseover", () => {
+            img.style.boxShadow = "0 0 20px 5px #ffd700";
+        });
+        img.addEventListener("mouseout", () => {
+            img.style.boxShadow = "none";
+        });
+    });
+
+    // Add bouncing animation to icons
+    const icons = document.querySelectorAll("i");
+    icons.forEach(icon => {
+        icon.style.display = "inline-block";
+        icon.style.animation = "bounce 2s infinite";
+    });
+
+    // Keyframe animations
+    const style = document.createElement("style");
+    style.textContent = `
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+    `;
+    document.head.appendChild(style);
+});
+    </script>
+</body>
+</html>
